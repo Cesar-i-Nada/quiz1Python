@@ -1,5 +1,3 @@
-
-
 datos = {
     "producto": "Zapatillas Nike Air",
     "talla": 7,
@@ -29,7 +27,6 @@ def editar_key():
     else:
         print("key no válida, ingrese una correcta")
         
-
 def eliminar_key():
      key = input("Ingrese la key que desea eliminar:")
      
@@ -47,9 +44,7 @@ def eliminar_key():
         print(datos)
      else:
         print("key no válida, ingrese una correcta")
-        
-        
-        
+                
 def menu():
     while True:
         print("Menú Interactivo") 
@@ -74,5 +69,4 @@ def menu():
         else:
             print("Opción no válida, por favor intente de nuevo")
     
-
 menu()
